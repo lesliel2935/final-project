@@ -1,21 +1,70 @@
-body{
-    background-color:#FAC5B4;
+body {
+    background-color: #FAC5B4;
+    margin: 10px;
+    padding:10px;
 }
 
 
-#home{
-    text-align:center;
-    padding:40px;
-    
+#home {
+    text-align: center;
+    padding: 40px;
+
 }
-#home h1{
-    font-size:40px;
+
+#home h1 {
+    font-size: 45px;
     font-family: 'Dancing Script', cursive;
 }
 
-#content h2{
-    font-size:20px;
+#content h2 {
+    font-size: 20px;
     text-align: center;
+
+}
+
+nav {
+    opacity: 0.9;
+}
+
+h1{
+    font-size:35px;
+}
+h3{
+    font-size:30px;
+}
+body,h5 {
+    font-size: 15px;
+}
+
+@media(min-width:768px) {
+    body,h5 {
+        font-size: 20px;
+        margin-top:10px
+    }
+    h2{
+        font-size:25px;
+    }
+    nav{
+        font-size:14px;
+    }
     
+}
+
+@media(min-width:840px) {
+    body,h5{
+        margin-top:10px;
+        font-size:20px;
+    }
+    nav{
+        font-size:16px;
+    }
+}
+@media(min-width:1000px) {
+    nav{
+        font-size:20px;
+    }
+    body,h5{
+        font-size:25px;
+    }
 }
 
