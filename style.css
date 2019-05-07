@@ -62,6 +62,12 @@ h10{
     text-shadow:2px 2px 5px green;
     
 }
+
+h12{
+    color:white;
+     font-family: 'Dancing Script', cursive;
+    text-shadow:2px 2px 5px green;
+}
 body,h5 {
     font-size: 15px;
 }
