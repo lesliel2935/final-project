@@ -60,6 +60,7 @@ body,h5 {
     }
      .item {
     width:80%;
+    margin-left:60px;
 }
     
 }
@@ -74,6 +75,10 @@ body,h5 {
     }
    .item {
     width:80%;
+    margin-left:80px;
+}
+#myCarousel{
+    width:80%;
 }
 }
 @media(min-width:1000px) {
@@ -85,6 +90,7 @@ body,h5 {
     }
     .item {
     width:70%;
+    margin-left: 140px;
 }
 } 
 

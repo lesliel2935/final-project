@@ -14,14 +14,22 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(function() {
-            $(window).resize(function() {
-                $("carousel").att( "src","flan,jpg");
-            });
+            var $windowWidth = $(window).width();
+
+            if ($windowWidth >= 768) {
+                $(window).resize(function() {
+                    $(".item").attr("src", "flan.jpg");
+                });
+            };
+
+
+
         });
     </script>
 </head>
@@ -82,8 +90,23 @@
     <div id="recipes">
         <h1>Recipes</h1>
 
-        <container class="flan">
+        <div class="flan">
             <h3>Flan</h3>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5><strong>Materials:</strong></h5>
+
+                    <ul>
+                        <Li>Pan </Li>
+                        <Li>Mixer </Li>
+                        <Li>Stove</Li>
+                        <Li>Foil Pan </Li>
+                        <Li>Tin Foil</Li>
+                        <Li>Round Cake Pan </Li>
+                    </ul>
+                </div>
+
             <div class="col-sm-6">
                 <h5><strong>Materials:</strong></h5>
 
@@ -230,59 +253,98 @@
                
                 <!--image-->
 
+
+                <div class="col-sm-6">
+                    <h5><strong>Ingredients:</strong></h5>
+                    <ul>
+                        <li>1 can (14 ounces) sweetened condensed milk</li>
+                        <li>1 can (12 ounces) evaporated milk</li>
+                        <li>1 teaspoon vanilla extract</li>
+                        <li>3/4 cup sugar</li>
+                        <li>5 large eggs</li>
+                        <li>1/8 soft butter stick</li>
+                        <li>Water</li>
+                    </ul>
+                </div>
+                <div class="col-sm-10 ">
+                    <h5><strong>Instructions:</strong></h5>
+                    <ol>
+                        <li><strong>Grab</strong> your mixer and put both cans of milk</li>
+                        <li><strong>Add</strong> the 5 eggs and the vanilla extract</li>
+                        <li><strong>Mix</strong> thoose ingredients well and set it aside</li>
+                        <li><strong>Grab</strong> your round cake pan and grease it with soft butter</li>
+                        <li><strong>Preheat</strong> your oven to 350° </li>
+                        <li><strong>Turn</strong> on your stove to medium flame</li>
+                        <li><strong>Put</strong> the pan on the stove and add the sugar to the pan</li>
+                        <li><strong>Stir</strong> the sugar and wait until metled should look golden</li>
+                        <li><strong>Pour</strong> the sugar around the round cake pan and wait until harden</li>
+                        <li><strong>Bring</strong> back the mixer with the ingredients and pour it to the round cake pan</li>
+                        <li><strong>Cover</strong> the top of the cake pan very well with tin foil</li>
+                        <li><strong>Add</strong> water to a wide foil pan(This is a sepreat cake pan)</li>
+                        <li><strong>Put</strong> the foil pan that has water in the oven</li>
+                        <li><strong>Put</strong> the rounded cake pan over the foil pan that has water make sure the water is 2 inches tall from the cake pan</li>
+                        <li><strong>Bake</strong> for an hour</li>
+                        <li><strong>Take</strong> cake pan out of the oven take off the tin foil and cut around the edges to make sure its not stuck to the pan</li>
+                        <li><strong>Let</strong> it cool for 30 min</li>
+                        <li><strong>Grab</strong> a plate and put it on top the pan and carfully flip it over</li>
+                        <li><strong>Now its ready to be served and eat</strong></li>
+                    </ol>
+                    <!--image-->
+                </div>
             </div>
-        </container>
+        </div>
     </div>
 
+    <container>
+        <div id="gallery">
 
-    <container id="gallery">
 
+            <div id="myCarousel" class="carousel slide " data-ride="carousel">
+                <h2>Gallery</h2>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <h2>Gallery</h2>
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                <li data-target="#myCarousel" data-slide-to="5"></li>
-            </ol>
+                </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="flan.jpg" alt="flan" style="width:100%;">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="flan.jpg" alt="flan" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="cookies.jpg" alt="cookies" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="chocoflan.jpg" alt="chocoflan" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="pumpkin.jpg" alt="balloon-4" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="strawberries.jpg" alt="balloon-5" style="width:100%;">
+                    </div>
+
                 </div>
 
-                <div class="item">
-                    <img src="cookies.jpg" alt="cookies" style="width:100%;">
-                </div>
-
-                <div class="item">
-                    <img src="chocoflan.jpg" alt="chocoflan" style="width:100%;">
-                </div>
-                <div class="item">
-                    <img src="pumpkin.jpg" alt="balloon-4" style="width:100%;">
-                </div>
-                <div class="item">
-                    <img src="strawberries.jpg" alt="balloon-5" style="width:100%;">
-                </div>
-
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
-        </div>
+            </div>
 
+        </div>
     </container>
 </body>
 
