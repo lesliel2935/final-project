@@ -12,14 +12,16 @@ body {
 }
 
 #home h1 {
+    color:white;
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
-    text-shadow:2px 2px 5px purple;
+    text-shadow:2px 2px 5px green;
 }
 
 #content h2 {
     font-size: 20px;
     text-align: center;
+    
 
 }
 
@@ -31,11 +33,40 @@ h1{
     font-size:35px;
 }
 h3{
-    font-size:30px;
+    font-size:35px;
+    color:white;
+     font-family: 'Dancing Script', cursive;
+    text-shadow:2px 2px 5px green;
 }
 h6{
-    font-size:30px;
+    font-size:35px;
+     color:white;
+     font-family: 'Dancing Script', cursive;
+    text-shadow:2px 2px 5px green;
 }
+h8{
+    font-size:35px;
+     color:white;
+     font-family: 'Dancing Script', cursive;
+    text-shadow:2px 2px 5px green;
+}
+h9{
+   
+    
+}
+
+h10{
+    font-size:35px;
+     color:white;
+     font-family: 'Dancing Script', cursive;
+    text-shadow:2px 2px 5px green;
+    
+}
+
+h12{
+    color:white;
+     font-family: 'Dancing Script', cursive;
+    text-shadow:2px 2px 5px green;
 }
 body,h5 {
     font-size: 15px;
@@ -48,7 +79,7 @@ body,h5 {
     }
     h2{
         font-size:25px;
-    }
+}
     nav{
         font-size:14px;
     }
