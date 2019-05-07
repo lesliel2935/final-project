@@ -33,13 +33,13 @@ h1{
     font-size:35px;
 }
 h3{
-    font-size:40px;
+    font-size:35px;
     color:white;
      font-family: 'Dancing Script', cursive;
     text-shadow:2px 2px 5px green;
 }
 h6{
-    font-size:30px;
+    font-size:35px;
      color:white;
      font-family: 'Dancing Script', cursive;
     text-shadow:2px 2px 5px green;
@@ -52,6 +52,14 @@ h8{
 }
 h9{
    
+    
+}
+
+h10{
+    font-size:35px;
+     color:white;
+     font-family: 'Dancing Script', cursive;
+    text-shadow:2px 2px 5px green;
     
 }
 body,h5 {
