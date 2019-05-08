@@ -173,6 +173,11 @@ h5 {
 .strawberries h3 {
     text-shadow: 2px 2px 5px blue;
 }
+.cupcake1{
+    border:6px solid white;
+    margin-bottom:12px;
+    margin-top:12px;
+}
 
 .cupcake {
     border: 6px solid white;
@@ -180,8 +185,13 @@ h5 {
     margin-top: 12px;
 }
 
+
 .cupcake h3 {
     text-shadow: 2px 2px 5px purple;
+}
+
+.cupcake1 h3{
+    text-shadow: 2px 2px 5px brown;
 }
 
 .jumbotron{
