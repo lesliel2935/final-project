@@ -227,10 +227,15 @@ h5 {
     font-family: 'Patrick Hand', cursive;
 }
 #reviews p{
-    font-size:17px;
+    color:white;
+    font-size:20px;
     width:100%;
+     font-family: 'Patrick Hand', cursive;
    
 }
 #reviews p1{
     height:20px;
+   
 }
+
+
