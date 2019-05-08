@@ -237,13 +237,15 @@ li{
 }
 
 #serving p{
-    color:white;
+    color:grey;
     font-size:20px;
+    font-weight:bold;
     width:100%;
      font-family: 'Patrick Hand', cursive;
 }
 #reviews p{
-    color:white;
+    color:grey;
+    font-weight:bold;
     font-size:20px;
     width:100%;
      font-family: 'Patrick Hand', cursive;
@@ -251,6 +253,10 @@ li{
 }
 #reviews p1{
     height:20px;
+    color:white;
+     text-shadow: 2px 2px 5px grey;
+    font-weight:bold;
+    font-family: 'Patrick Hand', cursive;
    
 }
 
