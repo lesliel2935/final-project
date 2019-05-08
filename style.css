@@ -209,3 +209,11 @@ h5 {
     font-size:25px;
     font-family: 'Patrick Hand', cursive;
 }
+#reviews p{
+    font-size:17px;
+    width:100%;
+   
+}
+#reviews p1{
+    height:20px;
+}
