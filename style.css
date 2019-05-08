@@ -46,7 +46,7 @@ h1 {
     font-size: 35px;
 }
 #content h1{
-     text-shadow:2px 2px 5px red;
+     text-shadow:2px 2px 5px brown;
       font-family: 'Dancing Script', cursive;
 font-size: 45px;
 color:white;
@@ -127,8 +127,8 @@ h5 {
 #content {
     width: 100%;
     height: 100%;
-    background-color: #ffa4a4;
-    border: 2px dashed red;
+    background-color:white;
+    border: 2px dashed grey;
     padding: 6px;
 
 }
