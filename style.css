@@ -235,6 +235,13 @@ li{
     font-size:25px;
     font-family: 'Patrick Hand', cursive;
 }
+
+#serving p{
+    color:white;
+    font-size:20px;
+    width:100%;
+     font-family: 'Patrick Hand', cursive;
+}
 #reviews p{
     color:white;
     font-size:20px;
