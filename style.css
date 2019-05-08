@@ -134,7 +134,7 @@ h5 {
 }
 
 .flan {
-    border: 2px solid orange;
+    border: 6px solid white;
     margin-bottom: 12px;
     margin-top: 12px;
 
@@ -145,7 +145,7 @@ h5 {
 }
 
 .cookies {
-    border: 2px solid yellow;
+    border: 6px solid white;
     margin-bottom: 12px;
     margin-top: 12px;
 }
@@ -155,7 +155,7 @@ h5 {
 }
 
 .pumpkin {
-    border: 2px solid green;
+    border: 6px solid white;
     margin-bottom: 12px;
     margin-top: 12px;
 }
@@ -165,7 +165,7 @@ h5 {
 }
 
 .strawberries {
-    border: 2px solid blue;
+    border: 6px solid white;
     margin-bottom: 12px;
     margin-top: 12px;
 }
@@ -175,7 +175,7 @@ h5 {
 }
 
 .cupcake {
-    border: 2px solid purple;
+    border: 6px solid white;
     margin-bottom: 12px;
     margin-top: 12px;
 }
