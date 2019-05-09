@@ -110,7 +110,7 @@ h5 {
         margin-left: 80px;
     }
     #myCarousel {
-        width: 100%;
+        width: 80%;
     
     }
 }
@@ -147,7 +147,6 @@ h5 {
 
 }
 h40{
-    font-size:29px;
     color:white;
      text-shadow:2px 2px 6px brown;
     font-weight:bold;
