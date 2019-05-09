@@ -147,7 +147,13 @@ h5 {
     padding: 6px;
 
 }
-
+h40{
+    color:white;
+     text-shadow:2px 2px 6px brown;
+    font-weight:bold;
+     font-family: 'Patrick Hand', cursive;
+    
+}
 #reviews h2{
     color:white;
     font-size:45px;
