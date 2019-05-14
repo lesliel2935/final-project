@@ -27,8 +27,17 @@
                 $(this).css("background-color", "#FAC5B4");
             });
 
-
-
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
         });
     </script>
 </head>
@@ -54,7 +63,7 @@
 
                 </ul>
                 <ul class="nav navbar-nav navbar-center">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home">Title</a></li>
                     <li><a href="#content">Brief Intro</a></li>
                     <li><a href="#recipes">Recipes</a></li>
                     <li><a href="#gallery">Gallery</a></li>
